@@ -2661,7 +2661,7 @@ input, select, textarea {
 		.mini-post header {
 			padding: 0em 1.25em 0em 1.25em ;
 			min-height: 1em;
-			position: relative;
+			position: sticky;
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
@@ -2669,17 +2669,17 @@ input, select, textarea {
 		}
 
 			.mini-post header h3 {
-				font-size: 2.0em;
+				font-size: 1.3em;
 			}
 
 			.mini-post header .published {
 				display: block;
 				font-family: Helvetica, sans-serif;
-				font-size: 1.0em;
+				font-size: .65em;
 				font-weight: 400;
 				letter-spacing: 0.2em;
 				margin: -0.625em 0 0.7em 6.2em;
-				text-transform: uppercase;
+				text-transform: capitalize;
 			}
 
 			.mini-post header .author {
@@ -2689,7 +2689,7 @@ input, select, textarea {
 			}
 
 	.mini-posts {
-		margin: 3em 0 2em 0;
+		margin: 2em 0 2em 0;
 	}
 
 		@media screen and (max-width: 1280px) {
