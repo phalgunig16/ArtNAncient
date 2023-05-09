@@ -997,6 +997,7 @@ input, select, textarea {
 					padding: 0;
 					display: block;
 					margin: 0 auto;
+					object-fit: contain;
 					max-height: 100%;
 					max-width: 	100%;
 				}
@@ -1111,6 +1112,7 @@ input, select, textarea {
 		-ms-transition: opacity 0.75s ease, width 0.75s ease;
 		transition: opacity 0.75s ease, width 0.75s ease;
 		position: absolute;
+		object-fit: scale-down;
 		top: 0;
 		width: calc(100% - 22.5em);
 		height: 100%;
@@ -1122,6 +1124,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: 0;
+			object-fit: scale-down;
 			width: 100%;
 			height: 100%;
 			z-index: 2;
@@ -1141,6 +1144,7 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				left: 0;
+				object-fit: scale-down;
 				width: 100%;
 				height: 100%;
 			}
@@ -1155,6 +1159,7 @@ input, select, textarea {
 				background-repeat: no-repeat;
 				background-size: 64px 64px;
 				cursor: pointer;
+				object-fit: scale-down;
 				z-index: 1;
 				right: 0;
 				background-position: calc(100% - 0.75em) 0.75em;
@@ -1167,6 +1172,7 @@ input, select, textarea {
 				top: 50%;
 				width: 6em;
 				height: 6em;
+				object-fit: scale-down;
 				margin-top: -3em;
 				background-image: url("images/arrow.svg");
 				background-position: center;
@@ -1180,6 +1186,7 @@ input, select, textarea {
 				-webkit-transform: scaleX(-1);
 				-ms-transform: scaleX(-1);
 				transform: scaleX(-1);
+				object-fit: scale-down;
 				left: 0;
 			}
 
@@ -1195,6 +1202,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: 0;
+			object-fit: scale-down;
 			width: 100%;
 			height: 100%;
 			opacity: 1;
@@ -1227,6 +1235,7 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				left: 0;
+				object-fit: scale-down;
 				width: 100%;
 				height: 100%;
 				background-repeat: no-repeat;
@@ -1248,6 +1257,7 @@ input, select, textarea {
 				position: absolute;
 				top: 50%;
 				left: 50%;
+				object-fit: scale-down;
 				width: 3em;
 				height: 3em;
 				background-image: url("images/spinner.svg");
